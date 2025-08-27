@@ -8,7 +8,7 @@
 # Description: Build OpenWrt using GitHub Actions
 #
 
-name: imm-op24-1
+name: imm-op24a
 
 on:
   repository_dispatch:
@@ -26,8 +26,8 @@ on:
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt.git
   REPO_BRANCH: openwrt-24.10
-  FEEDS_CONF: feeds.conf.default24-1
-  CONFIG_FILE: config/imm-op24-1.config
+  FEEDS_CONF: feeds.conf.default24a
+  CONFIG_FILE: config/imm-op24a.config
   DIY_P1_SH: diy-part3.sh
   #DIY_P2_SH: diy-part2.sh
   UPLOAD_BIN_DIR: false
